@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFA596191C6A1B77003C8886 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA596181C6A1B77003C8886 /* AppDelegate.swift */; };
+		CFA5961B1C6A1B77003C8886 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA5961A1C6A1B77003C8886 /* ViewController.swift */; };
+		CFA5961E1C6A1B77003C8886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA5961C1C6A1B77003C8886 /* Main.storyboard */; };
+		CFA596201C6A1B77003C8886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA5961F1C6A1B77003C8886 /* Assets.xcassets */; };
+		CFA596231C6A1B77003C8886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA596211C6A1B77003C8886 /* LaunchScreen.storyboard */; };
+		CFA5962B1C6A1BA7003C8886 /* KYProgressAnimationHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA5962A1C6A1BA7003C8886 /* KYProgressAnimationHUD.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CFA596151C6A1B77003C8886 /* KYProgressAnimationHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYProgressAnimationHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA596181C6A1B77003C8886 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFA5961A1C6A1B77003C8886 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFA5961D1C6A1B77003C8886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFA5961F1C6A1B77003C8886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFA596221C6A1B77003C8886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFA596241C6A1B77003C8886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA5962A1C6A1BA7003C8886 /* KYProgressAnimationHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYProgressAnimationHUD.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFA596121C6A1B77003C8886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFA5960C1C6A1B77003C8886 = {
+			isa = PBXGroup;
+			children = (
+				CFA596171C6A1B77003C8886 /* KYProgressAnimationHUD */,
+				CFA596161C6A1B77003C8886 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFA596161C6A1B77003C8886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFA596151C6A1B77003C8886 /* KYProgressAnimationHUD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFA596171C6A1B77003C8886 /* KYProgressAnimationHUD */ = {
+			isa = PBXGroup;
+			children = (
+				CFA596181C6A1B77003C8886 /* AppDelegate.swift */,
+				CFA5961A1C6A1B77003C8886 /* ViewController.swift */,
+				CFA5962A1C6A1BA7003C8886 /* KYProgressAnimationHUD.swift */,
+				CFA5961C1C6A1B77003C8886 /* Main.storyboard */,
+				CFA5961F1C6A1B77003C8886 /* Assets.xcassets */,
+				CFA596211C6A1B77003C8886 /* LaunchScreen.storyboard */,
+				CFA596241C6A1B77003C8886 /* Info.plist */,
+			);
+			path = KYProgressAnimationHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFA596141C6A1B77003C8886 /* KYProgressAnimationHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA596271C6A1B77003C8886 /* Build configuration list for PBXNativeTarget "KYProgressAnimationHUD" */;
+			buildPhases = (
+				CFA596111C6A1B77003C8886 /* Sources */,
+				CFA596121C6A1B77003C8886 /* Frameworks */,
+				CFA596131C6A1B77003C8886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYProgressAnimationHUD;
+			productName = KYProgressAnimationHUD;
+			productReference = CFA596151C6A1B77003C8886 /* KYProgressAnimationHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFA5960D1C6A1B77003C8886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = KangYang;
+				TargetAttributes = {
+					CFA596141C6A1B77003C8886 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CFA596101C6A1B77003C8886 /* Build configuration list for PBXProject "KYProgressAnimationHUD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFA5960C1C6A1B77003C8886;
+			productRefGroup = CFA596161C6A1B77003C8886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFA596141C6A1B77003C8886 /* KYProgressAnimationHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFA596131C6A1B77003C8886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA596231C6A1B77003C8886 /* LaunchScreen.storyboard in Resources */,
+				CFA596201C6A1B77003C8886 /* Assets.xcassets in Resources */,
+				CFA5961E1C6A1B77003C8886 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFA596111C6A1B77003C8886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA5962B1C6A1BA7003C8886 /* KYProgressAnimationHUD.swift in Sources */,
+				CFA5961B1C6A1B77003C8886 /* ViewController.swift in Sources */,
+				CFA596191C6A1B77003C8886 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFA5961C1C6A1B77003C8886 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA5961D1C6A1B77003C8886 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFA596211C6A1B77003C8886 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA596221C6A1B77003C8886 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFA596251C6A1B77003C8886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFA596261C6A1B77003C8886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFA596281C6A1B77003C8886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KYProgressAnimationHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kangyang.KYProgressAnimationHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFA596291C6A1B77003C8886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KYProgressAnimationHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kangyang.KYProgressAnimationHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFA596101C6A1B77003C8886 /* Build configuration list for PBXProject "KYProgressAnimationHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA596251C6A1B77003C8886 /* Debug */,
+				CFA596261C6A1B77003C8886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA596271C6A1B77003C8886 /* Build configuration list for PBXNativeTarget "KYProgressAnimationHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA596281C6A1B77003C8886 /* Debug */,
+				CFA596291C6A1B77003C8886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFA5960D1C6A1B77003C8886 /* Project object */;
+}
